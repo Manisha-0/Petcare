@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    background-image: url("../images/11.jpg");
+    background-size: cover;
+}
+
+.top-head{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+
+.logo{
+    color: #fff;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    font-family:sans-serif;
+    cursor: pointer;
+    transition: 1s;
+}
+.logo:hover{
+    color:#f85a40;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+.navbar ul li a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 14px;
+     font-weight: 550;
+     letter-spacing: .5px;
+     font-family: sans-serif;
+     cursor: pointer;
+     margin: 5px;
+     padding: 10px;
+}
+.navbar ul input{
+    border: 1px solid #fff;
+    border-radius: 30px;
+    margin: 25px;
+    padding: 15px;
+
+}
+
+.navbar li.active a{
+    border-bottom: 2px solid #fff;
+
+}
+.navbar a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.sticky {
+    background-color: #fff;
+    position: sticky;
+    width: 100%;
+  }
+
+
+.main-head{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 160px;
+}
+
+.main h1{
+    text-align: left;
+    font-size: 50px;
+    font-weight:300;
+    font-family: Arial, Helvetica, sans-seri;
+}
+
+.main h2{
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.6px;
+    font-weight: 300;
+    margin-top: 25px;
+} 
+button{
+    margin-top: 60px;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn1{
+    font-size: 14px;
+}
+.btn2{
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.btn2:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 100px 120px 100px;
+   
+}
+
+.about-img ,
+.about-content {
+    width: 45%;
+}
+.about-content{
+    margin-top: 35px;
+}
+.about-content h1{
+    margin-right: 400px;
+}
+.about-section p{
+    color: #707070;
+    line-height: 25px;
+    letter-spacing: .5px;
+    margin-top: 10px;
+}
+
+.mv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+
+.mv h2{
+    color: #060606;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+
+}
+.mission .fa{
+    color: #f85a40;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.vision .fab{
+    color: #f85a40;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.whatwedo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.heading p, h1{
+    text-align: center;
+}
+
+.whatwedo h1{
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family:'Raleway', serif;;
+    margin-top:0px;
+}
+.whatwedo p{
+    margin-top: 20px;
+    color: #707070;
+    font-size:17.6px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.service-content{
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+.services{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #eee;
+    box-shadow: #eee;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.content-image{
+    cursor: pointer;
+}
+
+.content-head p{
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.content-main p{
+    color: #707070;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.content-read p{
+    color: #f85a40;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.content-head p:hover{
+    color: #f85a40;
+}
+
+.services:hover{
+    background-color: rgb(170, 170, 170);
+    box-shadow: #eee;
+}
+
+.customer{
+    display:flex;
+    justify-content: space-evenly;
+}
+.happy-customer,
+.review{
+    width: 45%;
+}
